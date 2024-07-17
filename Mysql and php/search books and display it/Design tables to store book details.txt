@@ -1,0 +1,2 @@
+Design tables to store book details (bookno, tittle, author, price, date of purchase) and 
+insert five records. Create a search page in php for displaying book details based on its title. 

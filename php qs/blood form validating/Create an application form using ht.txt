@@ -1,0 +1,4 @@
+Create an application form using html  that contain  Name, Address, Dob, Gender, Mobile 
+No, Blood Group . Write PHP code for validating the following  
+a. All entries are non empty 
+b. Mobile number must be digits and its length is 10

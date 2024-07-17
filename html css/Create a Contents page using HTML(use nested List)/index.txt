@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contents Page</title>
+</head>
+<body>
+    <h1>Table of Contents</h1>
+    <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#main-sections">Main Sections</a></li>
+        <li><a href="#advanced-features">Advanced Features</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+    </ul>
+
+    <h2 id="introduction">Introduction</h2>
+    <ul>
+        <li><a href="#what-is-html">What is HTML?</a></li>
+        <li><a href="#why-html-important">Why HTML is Important</a></li>
+    </ul>
+
+    <h2 id="main-sections">Main Sections</h2>
+    <ul>
+        <li><a href="#basic-structure">Basic Structure</a></li>
+        <li><a href="#text-formatting">Text Formatting</a></li>
+        <li><a href="#lists">Lists</a></li>
+        <li><a href="#links">Links</a></li>
+    </ul>
+
+    <h2 id="advanced-features">Advanced Features</h2>
+    <ul>
+        <li><a href="#tables">Tables</a></li>
+        <li><a href="#forms">Forms</a></li>
+        <li><a href="#images">Images</a></li>
+    </ul>
+
+    <h2 id="conclusion">Conclusion</h2>
+</body>
+</html>

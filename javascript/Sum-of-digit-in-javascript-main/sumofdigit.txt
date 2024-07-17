@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+            sum of digits in php
+        </title>
+        <script>
+            function sumOfDigits(){
+                var digit=parseInt(document.getElementById('num').value);
+                var sum=0;
+                while(digit!=0)
+                {
+                    sum+=digit % 10;
+                    digit=parseInt(digit / 10);
+                }
+                document.getElementById('Res').innerHTML="The sum of diigts is "+ sum;
+            }
+        </script>
+    </head>
+    <body>
+        <label for="Number">enter a number:</label>
+        <input type="number" name="n1" id="num">
+        <br><br>
+        <input type="button" value="Get the sum of digits " onclick="sumOfDigits()">
+        <br><br>
+        <div id="Res">
+
+        </div>
+    </body>
+</html>

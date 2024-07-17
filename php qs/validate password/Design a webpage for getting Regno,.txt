@@ -1,0 +1,4 @@
+ Design a webpage for getting Regno, Name, Address, Age and Password. Write a php 
+program to validate the following 
+a. Age between 18 and 40  
+b. Length of password > 8 and it contains special characters and numbers 

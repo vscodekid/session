@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Welcome Page</title>
+<style>
+  body {
+    background-image: url(https://img.freepik.com/free-photo/sports-car-races-through-dark-blurred-motion-generative-ai_188544-12490.jpg?t=st=1709476881~exp=1709480481~hmac=6006983ede1e8c8ced4cedec80de15871a35854b1ddbbfcaf960a1ca1c235d0f&w=1060); /* Replace 'background_image.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <marquee behavior="scroll" direction="right" scrollamount="10">
+     <h1 style="color: white; text-shadow: 2px 2px black;"> Welcome to the Page.</h1>
+   
+  </marquee>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>palindrome or not....</title>
+        <script>
+            function palindrome()
+            {
+                var num=parseInt(document.getElementById('n1').value);
+                var rem;
+                var number=num;
+                var rev=0;
+
+                while(number!=0)
+                {
+                    rem=number %10;
+                    
+                    number =parseInt(number/10);
+                    rev=rev*10 + rem;
+                }
+                document.getElementById('res').innerHTML="reseverse of the  " +num +" is " + rev;
+            }
+        </script>
+    </head>
+    <body>
+        <label for="Number">enter a number:</label>
+        <input type="number" id="n1">
+        <br><br>
+        <input type="button" value="check palindrome" id="btn" onclick="palindrome()">
+        <br><br>
+        <div id="res">
+
+        </div>
+    </body>
+</html>

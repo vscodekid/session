@@ -1,0 +1,3 @@
+Design a web page for applying a vehicle loan with fields Application number, Name, 
+Address, Mobile number, Loan duration and Loan amount. Write a php code to save the 
+application to a database.    

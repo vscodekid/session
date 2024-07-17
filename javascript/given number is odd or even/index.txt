@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>ODD OR EVEN</title>
+    <script>
+        function checkNumber()
+         {
+            var number = document.getElementById('Num2').value;
+            var num = parseInt(number);
+            var result;
+
+            if (num % 2 === 0) 
+            {
+                document.getElementById('res').innerHTML=num+" is an even number";
+            } 
+            else
+            {
+               document.getElementById('res').innerHTML=num+" is an odd number";
+            }
+           
+            
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <form >
+        <label for="Number">Enter a number :</label>
+        <input type="number" name="num1" id="Num2" required>
+        <br><br>
+        <input type="button" value="Submit" name="btn" onclick="checkNumber()">
+        <br><br><br>
+        <div id="res"></div>
+    </form>
+</body>
+</html>

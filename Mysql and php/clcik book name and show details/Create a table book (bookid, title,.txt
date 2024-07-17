@@ -1,0 +1,3 @@
+Create a table book (bookid, title, author, price, publisher and number_of_pages) and insert 
+five records. Design a php page for list all distinct titles and when clicking on the title, it 
+should show a second page giving book details.

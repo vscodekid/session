@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+header .logo {
+    flex: 1;
+}
+
+header .college-name {
+    flex: 3;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.about-college {
+    flex: 2;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.college-image {
+    flex: 3;
+    text-align: center;
+    padding: 20px;
+}
+
+.college-image img {
+    width: 100%;
+    height: auto;
+}
+
+.departments {
+    flex: 1;
+    padding: 20px;
+}
+
+.departments h2 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #ddd;
+    border-top: 1px solid #ccc;
+}

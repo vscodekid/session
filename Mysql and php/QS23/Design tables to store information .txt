@@ -1,0 +1,1 @@
+Design tables to store information about employees such as empid, name, sex, dept ID, grade, salary, designation, DOJ. Department table contains: deptName, deptID. Write a web program based on PHP, MySQL, CSS etc. to perform the following. a) Traverse records, b) add records c) delete. Check all validations. Display the record of an employee as per our choice.

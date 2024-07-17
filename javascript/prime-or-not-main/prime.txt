@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>
+            Prime or not..
+        </title>
+        <script>
+            function prime(){
+                var num=parseInt(document.getElementById('n1').value);
+                var flag=0;
+                var i;
+                if(num==0 || num==1)
+                {
+                    flag=1;
+                }
+                for(i=2;i<=num/2;i++)
+                {
+                    if (num % i == 0) 
+                    {
+                    flag = 1;
+                    break;
+                    }
+                }
+                if(flag==0){
+                    document.getElementById('res').innerHTML=num + " is a prime number...";
+                }
+                else{
+                    document.getElementById('res').innerHTML=num + " is not a prime number...";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <label for="number">enter a number:</label>
+        <input type=" number" id="n1"><br><br>
+        <input type="button" value="Check prime" onclick="prime()" >
+        <br><br>
+        <div id="res">
+
+        </div>
+    </body>
+</html>

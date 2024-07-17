@@ -1,0 +1,2 @@
+Create a table employee (empno, name, mobile, email) and insert five records. Design a 
+php page for updating details of  employee. 

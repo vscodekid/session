@@ -1,0 +1,9 @@
+Write php code getting marks of six subjects (out of 100 marks) of a student and display 
+the grade 
+Less than 40 %      Failed       
+<50%                Grade D
+<60%                Grade C
+<70%                Grade B 
+<80%                Grade B+
+<90%                Grade A 
+Above 90%           Grade A+

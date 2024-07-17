@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <title>time table</title>
+    <style>
+        body{
+            background-color: #35374B;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+        }
+        table,tr, th, td{
+            border: 4px solid #FEECE2;
+            border-radius: 20px;
+            border-collapse: collapse;
+        }
+        th{
+            height: 50px;
+            width: 150px;
+            font-size: 20px;
+        }
+        td{
+            height: 30px;
+            width: 20px;
+            font-size: medium;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="head" style="text-align: center;font-size: 50px; text-shadow: 0px 2px black; color: white;">Time table for Sem4 Class</h1>
+   <center>
+        <table cellpadding="5" cellspacing="5" >
+            <tr>
+                <th>Day</th>
+                <th>09:00 - 10:00</th>
+                <th>10:00 - 11:00</th>
+                <th>11:15 - 12:15</th>
+                <th>12:15 - 01:15</th>
+                <th>02:00 - 03:00</th>
+                <th>03:00 - 04:00</th>
+            </tr>
+            <tr>
+                <td>MONDAY</td>
+                <td>PHP</td>
+                <td>DAA</td>
+                <td>OR</td>
+                <td>LINUX</td>
+                <td>SASE</td>
+                <td>LAB</td>
+            </tr>
+            <tr>
+                <td>TUESDAY</td>
+                <td>PHP</td>
+                <td>DAA</td>
+                <td>OR</td>
+                <td>LINUX</td>
+                <td>SASE</td>
+                <td>LAB</td>
+            </tr>
+            <tr>
+                <td>WEDNESDAY</td>
+                <td>PHP</td>
+                <td>DAA</td>
+                <td>OR</td>
+                <td>LINUX</td>
+                <td>SASE</td>
+                <td>LAB</td>
+            </tr>
+           
+        </table>
+    </center>
+</body>
+</html>

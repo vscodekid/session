@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum of Two Numbers</title>
+    <script>
+        function sumOfDigit() {
+            var num1 = document.getElementById('Num1').value;
+            var n1 = parseInt(num1);
+            var num2 = document.getElementById('Num2').value;
+            var n2 = parseInt(num2);
+            var result = n1 + n2;
+
+            document.getElementById('res').value = result;
+            return false; 
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <label for="Number">Enter the first number:</label>
+        <input type="number" name="num1" id="Num1" required><br><br>
+        <label for="Number">Enter the second number:</label>
+        <input type="number" name="num2" id="Num2" required>
+        <br><br><br>
+        <input type="submit" value="Submit" name="btn" onclick="sumOfDigit()">
+        <br><br>
+
+        <h1>Sum of Two Numbers</h1>
+        <label for="result">Result:</label>
+        <input type="text" name="res" id="res"><br><br>
+    </form>
+</body>
+</html>

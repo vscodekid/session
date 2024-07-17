@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>LOGO</h1>
+            </div>
+            <div class="college-name">
+                <h1>College Name</h1>
+            </div>
+        </header>
+        <main>
+            <div class="about-college">
+                <h2>About The College</h2>
+                <p>Welcome to our college. We offer a range of courses and programs designed to provide students with the skills and knowledge needed to succeed in their chosen fields. Our faculty are experienced professionals dedicated to providing a high-quality education. We strive to create a supportive and engaging learning environment for all our students.</p>
+            </div>
+            <div class="college-image">
+                <img src="college_image.jpg" alt="College Image" />
+            </div>
+            <div class="departments">
+                <h2>Departments</h2>
+                <ul>
+                    <li>BBA</li>
+                    <li>BCA</li>
+                    <li>--- (additional departments)</li>
+                    <li>---</li>
+                    <li>----</li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <p>Footer of your web page</p>
+        </footer>
+    </div>
+</body>
+</html>

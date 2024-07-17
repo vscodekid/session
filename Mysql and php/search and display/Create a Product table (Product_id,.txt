@@ -1,0 +1,3 @@
+Create a Product table (Product_id, product name, description, Unit Cost, Tax rate, expiry 
+date) and insert five records. Write php code to view the details of all the products. Give an 
+option to search for a product name in the list 

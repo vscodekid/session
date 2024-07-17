@@ -1,0 +1,1 @@
+Write a program to demonstrate the concept of constructor and destructor using  object oriented programming.

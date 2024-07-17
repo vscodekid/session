@@ -1,0 +1,3 @@
+Create two tables teacher (tid, name, department, designation, dob, mobno) and subject(sid, 
+tid, subject). Insert five records in each table. Design php pages for searching teacher’s 
+data and display subject details of that teacher using tid.

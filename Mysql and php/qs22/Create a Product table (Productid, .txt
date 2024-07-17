@@ -1,0 +1,1 @@
+Create a Product table (Productid, productname, catid, description, quantity, Unit Cost, Total Cost, purchasedate). Another table Category table (catname, catid) and input product and category information and update the product quantity and produce reports (category wise, productwise). Perform insert, delete, edit and search operation Check all validations.. 

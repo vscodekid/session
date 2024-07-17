@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multiplication Table</title>
+    <script>
+        function multiplicationTable() {
+            var number = document.getElementById('n1').value;
+            var n1 = parseInt(number);
+            var result = "MULTIPLICATION TABLE OF " + n1 + " is:<br>";
+            
+            for (var i = 1; i <= 10; i++) {
+                result += n1 + " * " + i + " = " + (n1 * i) + "<br>";
+            }
+
+            document.getElementById('res').innerHTML = result;
+            return false; 
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="return multiplicationTable()">
+        Enter the number:
+        <input type="number" name="number" id="n1">
+        <br><br>
+        <input type="submit" value="Generate Table">
+    </form>
+    <div id="res">
+        
+    </div>
+</body>
+</html>

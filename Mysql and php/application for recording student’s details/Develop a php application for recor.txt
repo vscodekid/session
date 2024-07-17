@@ -1,0 +1,2 @@
+Develop a php application for recording student’s details (admno, name, dob, address, 
+fathers name, mob number). Enter the data about at least five students.
